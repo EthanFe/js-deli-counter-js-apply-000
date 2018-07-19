@@ -3,8 +3,9 @@ linePosition = 1;
 
 function takeANumber(line){
   line.push(linePosition);
-  return "Welcome! You're ticket number #" + linePosition;
+  welcomeMessage = "Welcome! You're ticket number #" + linePosition;
   linePosition++;
+  return welcomeMessage;
 }
 
 takeANumber(line) //  Welcome! You're ticket number #1 [1]
